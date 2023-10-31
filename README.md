@@ -1,6 +1,6 @@
-# ZDAR BRO DIK ZE CTES MORE
+![image](https://github.com/novotny13/WAV/assets/90974926/ec1e2062-8994-40b8-a06d-92f2bfb40029)# ZDAR BRO DIK ZE CTES MORE
 
-![Project Logo]([./images/logo.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.ifunny.co%2Fpicture%2Fgorlock-the-boomer-6Y3NvoysA&psig=AOvVaw0T94Trj9v0TzAa6h4U_2mO&ust=1698842333817000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCNDVvYanoIIDFQAAAAAdAAAAABAD))
+![Project Logo](https://preview.redd.it/gorlock-the-destroyer-v0-872degczez6b1.png)
 
 JSEM ONDREJ NOVOTNY NEMAM RAD UCENI
 
