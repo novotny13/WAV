@@ -1,2 +1,3 @@
-#jsem ondrej novotny a nesnasim cernou barvu
+#@SPRUNGL
+jsem ondrej novotny a nesnasim cernou barvu
 
