@@ -1,0 +1,61 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text styles for the header */
+header {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the main content section */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+/* Style the cards */
+.card {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style images within the cards */
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Style the card titles */
+.card-title {
+    font-size: 24px;
+    color: #007BFF;
+    margin: 10px 0;
+}
+
+/* Style the card descriptions */
+.card-description {
+    font-size: 16px;
+    color: #444;
+    margin: 10px 0;
+}
+
+/* Style the footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
