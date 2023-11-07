@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formula Page</title>
+</head>
+<body>
+    <header>
+        <h1>Formule</h1>
+    </header>
+    <main>
+        <section class="card">
+            <h2 class="card-title">Meth Formule</h2>
+            <p class="card-description">Please enter your daily dose:</p>
+            <form action="process_form.php" method="post">
+                <label for="mass">gram(g):</label>
+                <input type="text" id="mass" name="mass"><br>
+
+                <label for="speed">kilograms(kg):</label>
+                <input type="text" id="speed" name="speed"><br>
+
+                <input type="submit" value="Calculate death">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Markos Industries</p>
+    </footer>
+</body>
+</html>
