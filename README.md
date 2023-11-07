@@ -1,7 +1,5 @@
 JDI DOPRDELE TY CURAKU JA TE ZABI
-import { awesomeFunction } from 'awesome-project';
 
-awesomeFunction();
 # Awesome Project
 
 ![Project Logo](logo.png)
