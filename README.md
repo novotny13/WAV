@@ -1,4 +1,3 @@
-JDI DOPRDELE TY CURAKU JA TE ZABI
 
 # Awesome Project
 
