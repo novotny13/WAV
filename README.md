@@ -1,5 +1,5 @@
 
-# Awesome Project
+# Ondřej Šprungl, Ondřej Novotný, Matyáš Koppel
 
 ![Project Logo](logo.png)
 
