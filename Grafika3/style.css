@@ -1,0 +1,309 @@
+html * {
+    color: #FFFFFF !important;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 113, 189);
+    display: flex;
+    align-items: center;
+}
+
+p {
+    justify-self: left;
+    padding-left: 10px;
+}
+
+nav {
+    background-color: rgb(129, 184, 223);
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    height: 50px;
+    margin-left: auto;
+}
+
+ul {
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.centeredDiv {
+    margin: 0 auto;
+    width: 66vw;
+    justify-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchButton {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(129, 184, 223);
+    margin-left: 10px;
+    float: right;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    width: 66vw;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    
+}
+
+.Container {
+    margin-top: 20px;
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+   
+    gap:20px;
+    
+}
+.Containerfooter {
+    margin: 20px 0px 20px 0px;
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    
+}
+.box1,.box2,.box3,.boxFooter {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.box1{
+    background-color: #FBB03B;
+    
+    
+}
+
+.box2 {
+    background-color: #F15A25;
+    flex-grow: 2;
+  
+}
+
+.box3 {
+    background-color: #C2272D;
+    flex-grow: 3;
+    
+}
+
+.boxFooter{
+    background-color: #B296C7;
+    flex-grow: 3;
+    height: 200px;
+    width: 68%;
+    
+}
+
+aside{
+    background-color: #01A89E;
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    margin: 20px auto 0px 0px;
+    height: auto;
+    width: 100%;
+}
+
+footer .centeredDiv{
+    background-color: #662E91;
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+footer .Container{
+    margin: 0 auto;
+    height: 15vh;
+}
+
+  
+  @media screen and (min-width: 600px) {
+   
+    .box2 {
+      display: none;
+    }
+    .box1{
+        background-color: #FBB03B;
+        
+    }
+    .box3 {
+        background-color: #C2272D;
+        
+    }
+    .Container {
+        display:grid;
+      
+        grid-template-columns: auto auto;
+    }
+.karel { grid-area: karel; }
+.petr { grid-area: petr; }
+.pepa { grid-area: pepa; }
+    .Containerfooter {
+        display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "petr karel"
+    "pepa pepa"; 
+    gap:20px;
+          
+    }
+    .mainContainer {
+        display:grid;
+        
+    }
+    .centeredDiv{
+        margin: 0 auto;
+        width: 66vw;
+        justify-self: center;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+  
+    .boxFooter{
+        background-color: #B296C7;
+       
+    
+        height: 100PX;
+
+    }
+   
+  }
+@media screen and (min-width: 1024px) {
+  
+    .Container {
+        margin-top: 20px;
+        width: 75%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        flex-direction: row;
+        gap:20px;
+        }
+        .Containerfooter {
+            margin-top: 20px;
+            width: 70%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-left: 16.5%;
+           margin-right: 15%;
+            gap:20px;
+            }
+        .mainContainer{
+            display: flex;
+        }
+    
+        aside{
+            width: 24%;
+            margin-left: 20px;
+            margin-bottom: auto;
+            height: 670px;
+        }
+    
+        nav{
+            display: flex;
+        }
+    
+        .box1{
+            height: 210px;
+            flex-basis: 22.6%;
+        }
+        .box2{
+            display: flex;
+            height: 210px;
+            flex-basis: 30.6%;
+        }
+        .box3{
+            height: 210px;
+            flex-basis: 47.6%;
+        }
+        footer{
+            margin: 20px auto 0px 0px;
+            height: auto;
+            width: 100%;
+        }
+        
+        footer .centeredDiv{
+            background-color: #662E91;
+            width: 100%;
+            height: auto;
+            
+        }
+        
+        footer .Container{
+            margin: 0 auto;
+            height: 15vh;
+            display: flex;
+            flex-direction: row;
+        }
+        .boxFooter{
+            background-color: #B296C7;
+            flex-grow: 3;
+        margin-bottom:20px ;
+            height: 100px;
+            
+           
+        }
+    }
+  
+  
+  
+  
